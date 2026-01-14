@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>單元6：動物園的一天 - 小學三年級英文互動練習</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-book-open"></i> 小學三年級英文</h1>
+            <p class="subtitle">單元 6：A Day at the Zoo!  (動物園的一天)</p>
+        </header>
+        
+        <div class="main-content">
+            <div class="content-area">
+                <div class="tab-container">
+                    <div class="tabs">
+                        <div class="tab active" data-tab="flashcards" aria-label="切換到詞彙卡片分頁">詞彙卡片</div>
+                        <div class="tab" data-tab="practice" aria-label="切換到互動練習分頁">互動練習</div>
+                        <div class="tab" data-tab="quiz" aria-label="切換到單元測驗分頁">單元測驗</div>
+                        <div class="tab" data-tab="writing" aria-label="切換到閱讀理解分頁">閱讀理解</div>
+                    </div>
+                    
+                    <div class="tab-content active" id="flashcards">
+                        <h3><i class="fas fa-id-card"></i> 詞彙卡片</h3>
+                        <p>點擊卡片查看動物圖片，點擊音頻按鈕聆聽發音：</p>
+                        
+                        <!-- 第一頁詞彙卡片 -->
+                        <div class="flashcard-container" id="page1">
+                            <!-- 陸地動物卡片 -->
+                            <div class="flashcard" data-word="polar bear">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="flashcard-word">polar bear</div>
+                                        <div class="flashcard-meaning">北極熊</div>
+                                        <button class="audio-btn" data-audio="polar_bear" aria-label="播放polar bear發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/polar_bear.png" alt="北極熊圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 獅子卡片 -->
+                            <div class="flashcard" data-word="lion">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="flashcard-word">lion</div>
+                                        <div class="flashcard-meaning">獅子</div>
+                                        <button class="audio-btn" data-audio="lion" aria-label="播放lion發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/lion.png" alt="獅子圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 豹子卡片 -->
+                            <div class="flashcard" data-word="leopard">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="flashcard-word">leopard</div>
+                                        <div class="flashcard-meaning">豹子</div>
+                                        <button class="audio-btn" data-audio="leopard" aria-label="播放leopard發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/leopard.png" alt="豹子圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 大象卡片 -->
+                            <div class="flashcard" data-word="elephant">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="flashcard-word">elephant</div>
+                                        <div class="flashcard-meaning">大象</div>
+                                        <button class="audio-btn" data-audio="elephant" aria-label="播放elephant發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/elephant.png" alt="大象圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 河馬卡片 -->
+                            <div class="flashcard" data-word="hippo">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="flashcard-word">hippo</div>
+                                        <div class="flashcard-meaning">河馬</div>
+                                        <button class="audio-btn" data-audio="hippo" aria-label="播放hippo發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/hippo.png" alt="河馬圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 蛇卡片 -->
+                            <div class="flashcard" data-word="snake">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="flashcard-word">snake</div>
+                                        <div class="flashcard-meaning">蛇</div>
+                                        <button class="audio-btn" data-audio="snake" aria-label="播放snake發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/snake.png" alt="蛇圖片">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 第二頁詞彙卡片 -->
+                        <div class="flashcard-container" id="page2" style="display: none;">
+                            <!-- 長頸鹿卡片 -->
+                            <div class="flashcard" data-word="giraffe">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="flashcard-word">giraffe</div>
+                                        <div class="flashcard-meaning">長頸鹿</div>
+                                        <button class="audio-btn" data-audio="giraffe" aria-label="播放giraffe發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/giraffe.png" alt="長頸鹿圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 火烈鳥卡片 -->
+                            <div class="flashcard" data-word="flamingo">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-feather-alt"></i></div>
+                                        <div class="flashcard-word">flamingo</div>
+                                        <div class="flashcard-meaning">火烈鳥</div>
+                                        <button class="audio-btn" data-audio="flamingo" aria-label="播放flamingo發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/flamingo.png" alt="火烈鳥圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 斑馬卡片 -->
+                            <div class="flashcard" data-word="zebra">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="flashcard-word">zebra</div>
+                                        <div class="flashcard-meaning">斑馬</div>
+                                        <button class="audio-btn" data-audio="zebra" aria-label="播放zebra發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/zebra.png" alt="斑馬圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 鯊魚卡片 -->
+                            <div class="flashcard" data-word="shark">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-fish"></i></div>
+                                        <div class="flashcard-word">shark</div>
+                                        <div class="flashcard-meaning">鯊魚</div>
+                                        <button class="audio-btn" data-audio="shark" aria-label="播放shark發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/shark.png" alt="鯊魚圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 企鵝卡片 -->
+                            <div class="flashcard" data-word="penguin">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-fish"></i></div>
+                                        <div class="flashcard-word">penguin</div>
+                                        <div class="flashcard-meaning">企鵝</div>
+                                        <button class="audio-btn" data-audio="penguin" aria-label="播放penguin發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/penguin.png" alt="企鵝圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 海龜卡片 -->
+                            <div class="flashcard" data-word="sea turtle">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-fish"></i></div>
+                                        <div class="flashcard-word">sea turtle</div>
+                                        <div class="flashcard-meaning">海龜</div>
+                                        <button class="audio-btn" data-audio="sea_turtle" aria-label="播放sea turtle發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/sea_turtle.png" alt="海龜圖片">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 第三頁詞彙卡片 -->
+                        <div class="flashcard-container" id="page3" style="display: none;">
+                            <!-- 海豹卡片 -->
+                            <div class="flashcard" data-word="seal">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-fish"></i></div>
+                                        <div class="flashcard-word">seal</div>
+                                        <div class="flashcard-meaning">海豹</div>
+                                        <button class="audio-btn" data-audio="seal" aria-label="播放seal發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/seal.png" alt="海豹圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 海豚卡片 -->
+                            <div class="flashcard" data-word="dolphin">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-fish"></i></div>
+                                        <div class="flashcard-word">dolphin</div>
+                                        <div class="flashcard-meaning">海豚</div>
+                                        <button class="audio-btn" data-audio="dolphin" aria-label="播放dolphin發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/dolphin.png" alt="海豚圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 小丑魚卡片 -->
+                            <div class="flashcard" data-word="clown fish">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-fish"></i></div>
+                                        <div class="flashcard-word">clown fish</div>
+                                        <div class="flashcard-meaning">小丑魚</div>
+                                        <button class="audio-btn" data-audio="clown_fish" aria-label="播放clown fish發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/clown_fish.png" alt="小丑魚圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 海獅卡片 -->
+                            <div class="flashcard" data-word="sea lion">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-fish"></i></div>
+                                        <div class="flashcard-word">sea lion</div>
+                                        <div class="flashcard-meaning">海獅</div>
+                                        <button class="audio-btn" data-audio="sea_lion" aria-label="播放sea lion發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/sea_lion.png" alt="海獅圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 水母卡片 -->
+                            <div class="flashcard" data-word="jelly fish">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-fish"></i></div>
+                                        <div class="flashcard-word">jelly fish</div>
+                                        <div class="flashcard-meaning">水母</div>
+                                        <button class="audio-btn" data-audio="jelly_fish" aria-label="播放jelly fish發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/jelly_fish.png" alt="水母圖片">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 大熊貓卡片 -->
+                            <div class="flashcard" data-word="giant panda">
+                                <div class="flashcard-inner">
+                                    <div class="flashcard-front">
+                                        <div class="flashcard-icon"><i class="fas fa-paw"></i></div>
+                                        <div class="flashcard-word">giant panda</div>
+                                        <div class="flashcard-meaning">大熊貓</div>
+                                        <button class="audio-btn" data-audio="giant_panda" aria-label="播放giant panda發音">
+                                            <i class="fas fa-volume-up"></i>
+                                            <span class="audio-loading"></span>
+                                        </button>
+                                    </div>
+                                    <div class="flashcard-back">
+                                        <img src="./images/giant_panda.png" alt="大熊貓圖片">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 分頁控制 -->
+                        <div class="pagination-controls">
+                            <button class="page-btn" id="prevPage" disabled aria-label="上一頁詞彙卡片">
+                                <i class="fas fa-chevron-left"></i> 上一頁
+                            </button>
+                            <span class="page-indicator" id="pageIndicator">第 1 頁 / 共 3 頁</span>
+                            <button class="page-btn" id="nextPage" aria-label="下一頁詞彙卡片">
+                                下一頁 <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="practice">
+                        <h3><i class="fas fa-pencil-alt"></i> 互動練習</h3>
+                        <p>根據單元6內容完成以下練習題：</p>
+                        
+                        <!-- 練習 1：動物分類大挑戰 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">分類練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-sort-amount-down"></i> 練習 1：動物分類大挑戰
+                            </h4>
+                            <p>將下方動物拖拽到 "Land animals" 或 "Sea animals" 方框中：</p>
+                            
+                            <div class="drag-items-container" id="dragItemsContainer">
+                                <div class="drag-item" data-animal="polar bear">polar bear</div>
+                                <div class="drag-item" data-animal="shark">shark</div>
+                                <div class="drag-item" data-animal="giraffe">giraffe</div>
+                                <div class="drag-item" data-animal="sea turtle">sea turtle</div>
+                                <div class="drag-item" data-animal="lion">lion</div>
+                                <div class="drag-item" data-animal="seal">seal</div>
+                                <div class="drag-item" data-animal="zebra">zebra</div>
+                                <div class="drag-item" data-animal="jelly fish">jelly fish</div>
+                            </div>
+                            
+                            <div class="drag-drop-area">
+                                <div class="drop-zone" id="landAnimalsZone">
+                                    <div class="drop-zone-title">Land animals (陸地動物)</div>
+                                    <div id="landAnimalsItems"></div>
+                                </div>
+                                
+                                <div class="drop-zone" id="seaAnimalsZone">
+                                    <div class="drop-zone-title">Sea animals (海洋動物)</div>
+                                    <div id="seaAnimalsItems"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="feedback" id="classificationFeedback"></div>
+                            
+                            <div id="zooBadge" class="badge" style="display: none;">
+                                <i class="fas fa-medal"></i> 動物園小管理員徽章
+                            </div>
+                            
+                            <button class="btn btn-check" onclick="checkClassification()" aria-label="檢查動物分類答案">
+                                <i class="fas fa-check"></i> 檢查答案
+                            </button>
+                            <button class="btn btn-reset" onclick="resetClassification()" aria-label="重設動物分類">
+                                <i class="fas fa-redo"></i> 重新開始
+                            </button>
+                        </div>
+                        
+                        <!-- 練習 2：問答配對連連看 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">配對練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-link"></i> 練習 2：問答配對連連看
+                            </h4>
+                            <p>左側問題與右側答案連線：</p>
+                            
+                            <div class="match-container">
+                                <div class="question-list">
+                                    <div class="match-item" data-question="1" onclick="selectQuestion(1)" aria-label="選擇問題1">
+                                        ① What do giant pandas eat?
+                                    </div>
+                                    <div class="match-item" data-question="2" onclick="selectQuestion(2)" aria-label="選擇問題2">
+                                        ② Where do sharks live?
+                                    </div>
+                                    <div class="match-item" data-question="3" onclick="selectQuestion(3)" aria-label="選擇問題3">
+                                        ③ How tall are flamingos?
+                                    </div>
+                                    <div class="match-item" data-question="4" onclick="selectQuestion(4)" aria-label="選擇問題4">
+                                        ④ How long are sharks?
+                                    </div>
+                                    <div class="match-item" data-question="5" onclick="selectQuestion(5)" aria-label="選擇問題5">
+                                        ⑤ How heavy are seals?
+                                    </div>
+                                </div>
+                                
+                                <div class="answer-list">
+                                    <div class="match-item" data-answer="A" onclick="selectAnswer('A')" aria-label="選擇答案A">
+                                        A. Seals weigh about 100 kilograms.
+                                    </div>
+                                    <div class="match-item" data-answer="B" onclick="selectAnswer('B')" aria-label="選擇答案B">
+                                        B. Giant pandas eat bamboo.
+                                    </div>
+                                    <div class="match-item" data-answer="C" onclick="selectAnswer('C')" aria-label="選擇答案C">
+                                        C. Flamingos are about 150 centimeters tall.
+                                    </div>
+                                    <div class="match-item" data-answer="D" onclick="selectAnswer('D')" aria-label="選擇答案D">
+                                        D. Sharks live in the sea.
+                                    </div>
+                                    <div class="match-item" data-answer="E" onclick="selectAnswer('E')" aria-label="選擇答案E">
+                                        E. Sharks are about 5 meters long.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="feedback" id="matchingFeedback"></div>
+                            
+                            <button class="btn btn-check" onclick="checkMatching()" aria-label="檢查配對答案">
+                                <i class="fas fa-check"></i> 檢查答案
+                            </button>
+                            <button class="btn btn-reset" onclick="resetMatching()" aria-label="重設配對練習">
+                                <i class="fas fa-redo"></i> 重新開始
+                            </button>
+                        </div>
+                        
+                        <!-- 練習 3：語法填空 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">語法練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-edit"></i> 練習 3：語法填空（一般現在時）
+                            </h4>
+                            <p>用 "have" 的正確形式填空：</p>
+                            
+                            <div class="fill-blank-container">
+                                <div class="fill-blank-item">
+                                    <div class="blank-sentence">
+                                        ① Giant pandas <input type="text" class="blank-input-large" id="blank1" placeholder="輸入 have/has">
+                                    </div>
+                                </div>
+                                
+                                <div class="fill-blank-item">
+                                    <div class="blank-sentence">
+                                        ② Sharks <input type="text" class="blank-input-large" id="blank2" placeholder="輸入 have/has"> sharp teeth.
+                                    </div>
+                                </div>
+                                
+                                <div class="fill-blank-item">
+                                    <div class="blank-sentence">
+                                        ③ A zebra <input type="text" class="blank-input-large" id="blank3" placeholder="輸入 have/has"> black and white stripes.
+                                    </div>
+                                </div>
+                                
+                                <div class="fill-blank-item">
+                                    <div class="blank-sentence">
+                                        ④ An elephant <input type="text" class="blank-input-large" id="blank4" placeholder="輸入 have/has"> a long trunk.
+                                    </div>
+                                </div>
+                                
+                                <div class="fill-blank-item">
+                                    <div class="blank-sentence">
+                                        ⑤ A polar bear <input type="text" class="blank-input-large" id="blank5" placeholder="輸入 have/has"> thick fur.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="feedback" id="grammarFeedback"></div>
+                            
+                            <button class="btn btn-check" onclick="checkGrammar()" aria-label="檢查語法填空答案">
+                                <i class="fas fa-check"></i> 檢查答案
+                            </button>
+                            <button class="btn btn-reset" onclick="resetGrammar()" aria-label="重設語法填空">
+                                <i class="fas fa-redo"></i> 重新開始
+                            </button>
+                        </div>
+                        
+                        <!-- 練習 4：日記細節找找看 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">閱讀練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-search"></i> 練習 4：日記細節找找看
+                            </h4>
+                            <p>閱讀教材中的 "My Diary"，選擇正確答案：</p>
+                            
+                            <div class="question">
+                                <h4>① When did the writer go to Ocean Park?</h4>
+                                <div class="options">
+                                    <div class="option" data-question="q1" data-answer="a">A. 25th December, 2018</div>
+                                    <div class="option" data-question="q1" data-answer="b">B. 29th December, 2018</div>
+                                    <div class="option" data-question="q1" data-answer="c">C. 30th December, 2018</div>
+                                </div>
+                            </div>
+                            
+                            <div class="question">
+                                <h4>② Who did the writer go with?</h4>
+                                <div class="options">
+                                    <div class="option" data-question="q2" data-answer="a">A. Parents and brother</div>
+                                    <div class="option" data-question="q2" data-answer="b">B. Joe, Sue, Mike and Anna</div>
+                                    <div class="option" data-question="q2" data-answer="c">C. Teachers and classmates</div>
+                                </div>
+                            </div>
+                            
+                            <div class="question">
+                                <h4>③ What animal does the writer love best?</h4>
+                                <div class="options">
+                                    <div class="option" data-question="q3" data-answer="a">A. Dolphins</div>
+                                    <div class="option" data-question="q3" data-answer="b">B. Giant pandas</div>
+                                    <div class="option" data-question="q3" data-answer="c">C. Penguins</div>
+                                </div>
+                            </div>
+                            
+                            <div class="question">
+                                <h4>④ Where do most giant pandas live?</h4>
+                                <div class="options">
+                                    <div class="option" data-question="q4" data-answer="a">A. In the forests in Sichuan</div>
+                                    <div class="option" data-question="q4" data-answer="b">B. In the mountains in Tibet</div>
+                                    <div class="option" data-question="q4" data-answer="c">C. In the deserts in Mongolia</div>
+                                </div>
+                            </div>
+                            
+                            <div class="question">
+                                <h4>⑤ How much do baby giant pandas weigh at birth?</h4>
+                                <div class="options">
+                                    <div class="option" data-question="q5" data-answer="a">A. About 100 grams</div>
+                                    <div class="option" data-question="q5" data-answer="b">B. About 500 grams</div>
+                                    <div class="option" data-question="q5" data-answer="c">C. About 1 kilogram</div>
+                                </div>
+                            </div>
+                            
+                            <div class="feedback" id="diaryFeedback"></div>
+                            
+                            <button class="btn btn-check" onclick="checkDiary()" aria-label="檢查日記問題答案">
+                                <i class="fas fa-check"></i> 檢查答案
+                            </button>
+                            <button class="btn btn-reset" onclick="resetDiary()" aria-label="重設日記問題">
+                                <i class="fas fa-redo"></i> 重新開始
+                            </button>
+                        </div>
+                        
+                        <!-- 練習 5：詢問動物飲食習慣 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">句型練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-question"></i> 練習 5：詢問動物飲食習慣
+                            </h4>
+                            <p>請根據答句寫出正確的問句：</p>
+                            <p>答句: <em>Giant pandas eat bamboo.</em></p>
+                            <input type="text" class="answer-input" id="q5-answer" placeholder="請輸入問句">
+                            <div class="result" id="q5-result"></div>
+                            <button class="btn btn-check" onclick="checkAnswer(5)" aria-label="檢查練習5答案"><i class="fas fa-check"></i> 檢查答案</button>
+                        </div>
+                        
+                        <!-- 練習 6：詢問動物棲息地 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">句型練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-question"></i> 練習 6：詢問動物棲息地
+                            </h4>
+                            <p>請將以下句子補充完整：</p>
+                            <p>"_______ do sharks live?"</p>
+                            <input type="text" class="answer-input" id="q6-answer" placeholder="請輸入疑問詞">
+                            <div class="result" id="q6-result"></div>
+                            <button class="btn btn-check" onclick="checkAnswer(6)" aria-label="檢查練習6答案"><i class="fas fa-check"></i> 檢查答案</button>
+                        </div>
+                        
+                        <!-- 練習 7：詢問動物高度 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">句型練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-question"></i> 練習 7：詢問動物高度
+                            </h4>
+                            <p>請選擇正確的疑問詞：</p>
+                            <p>"_______ tall are flamingoes?"</p>
+                            <div class="options">
+                                <div class="option" data-answer="what">What</div>
+                                <div class="option" data-answer="where">Where</div>
+                                <div class="option" data-answer="how">How</div>
+                            </div>
+                            <div class="result" id="q7-result"></div>
+                            <button class="btn btn-check" onclick="checkAnswer(7)" aria-label="檢查練習7答案"><i class="fas fa-check"></i> 檢查答案</button>
+                        </div>
+                        
+                        <!-- 練習 8：現在簡單式描述 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">語法練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-edit"></i> 練習 8：現在簡單式描述
+                            </h4>
+                            <p>請選擇正確的動詞形式：</p>
+                            <p>"Giant pandas _______ black and white fur."</p>
+                            <div class="options">
+                                <div class="option" data-answer="has">has</div>
+                                <div class="option" data-answer="have">have</div>
+                                <div class="option" data-answer="having">having</div>
+                            </div>
+                            <div class="result" id="q8-result"></div>
+                            <button class="btn btn-check" onclick="checkAnswer(8)" aria-label="檢查練習8答案"><i class="fas fa-check"></i> 檢查答案</button>
+                        </div>
+                        
+                        <!-- 練習 9：詢問動物長度 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">句型練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-question"></i> 練習 9：詢問動物長度
+                            </h4>
+                            <p>請根據答句寫出正確的問句：</p>
+                            <p>答句: <em>Sharks are about 5 meters long.</em></p>
+                            <input type="text" class="answer-input" id="q9-answer" placeholder="請輸入問句">
+                            <div class="result" id="q9-result"></div>
+                            <button class="btn btn-check" onclick="checkAnswer(9)" aria-label="檢查練習9答案"><i class="fas fa-check"></i> 檢查答案</button>
+                        </div>
+                        
+                        <!-- 練習 10：綜合練習 -->
+                        <div class="activity-section">
+                            <span class="practice-tag">綜合練習</span>
+                            <h4 class="activity-title">
+                                <i class="fas fa-star"></i> 練習 10：綜合練習
+                            </h4>
+                            <p>請回答以下問題：</p>
+                            <div class="question">
+                                <p>"How heavy are baby giant pandas?"</p>
+                                <input type="text" class="answer-input" id="q10-answer" placeholder="請輸入答案">
+                                <div class="result" id="q10-result"></div>
+                            </div>
+                            <button class="btn btn-check" onclick="checkAnswer(10)" aria-label="檢查練習10答案"><i class="fas fa-check"></i> 檢查答案</button>
+                        </div>
+                        
+                        <div class="progress-bar">
+                            <div class="progress" id="practice-progress"></div>
+                        </div>
+                        <p id="progress-text" style="font-size: 1.2rem; font-weight: bold;">進度: 0/10 已完成</p>
+                        <button class="btn btn-reset" onclick="resetPractice()" aria-label="重設所有練習"><i class="fas fa-redo"></i> 重設所有練習</button>
+                        
+                        <div id="completionMessage" class="badge" style="display: none; background-color: #27ae60; color: white; margin-top: 20px;">
+                            <i class="fas fa-trophy"></i> 恭喜！已完成所有練習！
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="quiz">
+                        <h3><i class="fas fa-clipboard-check"></i> 單元測驗</h3>
+                        <div class="quiz-info">
+                            測驗時長：15分鐘 滿分：16分
+                        </div>
+                        
+                        <div class="quiz-container">
+                            <!-- 詞彙選擇題 -->
+                            <div class="quiz-section">
+                                <h4 class="quiz-title">
+                                    <i class="fas fa-list-ol"></i> 詞彙選擇題（每題 2 分）
+                                </h4>
+                                
+                                <div class="question">
+                                    <h4>1. Which animal is a sea animal?</h4>
+                                    <div class="options">
+                                        <div class="option" data-quiz="1" data-answer="a">A. lion</div>
+                                        <div class="option" data-quiz="1" data-answer="b">B. shark</div>
+                                        <div class="option" data-quiz="1" data-answer="c">C. giraffe</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="question">
+                                    <h4>2. What do we call "一隻長頸鹿" in English?</h4>
+                                    <div class="options">
+                                        <div class="option" data-quiz="2" data-answer="a">A. a zebra</div>
+                                        <div class="option" data-quiz="2" data-answer="b">B. a flamingo</div>
+                                        <div class="option" data-quiz="2" data-answer="c">C. a giraffe</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 問答匹配題 -->
+                            <div class="quiz-section">
+                                <h4 class="quiz-title">
+                                    <i class="fas fa-link"></i> 問答匹配題（每題 2 分）
+                                </h4>
+                                <p>匹配問題與答案：</p>
+                                
+                                <div class="question">
+                                    <h4>① How tall are flamingos?</h4>
+                                    <div class="options">
+                                        <div class="option" data-match="1" data-answer="a">A. Flamingos are about 15 meters tall</div>
+                                        <div class="option" data-match="1" data-answer="b">B. Flamingos are about 150 centimeters tall.</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="question">
+                                    <h4>② How heavy are seals?</h4>
+                                    <div class="options">
+                                        <div class="option" data-match="2" data-answer="a">A. Seals weigh about 100 kilograms.</div>
+                                        <div class="option" data-match="2" data-answer="b">B. Seals weigh about 100 grams.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 語法填空題 -->
+                            <div class="quiz-section">
+                                <h4 class="quiz-title">
+                                    <i class="fas fa-edit"></i> 語法填空題（每題 2 分）
+                                </h4>
+                                <p>用 "have/has" 填空：</p>
+                                
+                                <div class="fill-blank-container">
+                                    <div class="fill-blank-item">
+                                        <div class="blank-sentence">
+                                            ① A hippo <input type="text" class="blank-input" id="quizBlank1" style="width: 80px;"> a big body.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="fill-blank-item">
+                                        <div class="blank-sentence">
+                                            ② Snakes <input type="text" class="blank-input" id="quizBlank2" style="width: 80px;"> no legs.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 閱讀理解題 -->
+                            <div class="quiz-section">
+                                <h4 class="quiz-title">
+                                    <i class="fas fa-book-reader"></i> 閱讀理解題（每題 2 分）
+                                </h4>
+                                <p>基於教材 "My Diary"：</p>
+                                
+                                <div class="question">
+                                    <h4>1. The weather at Ocean Park was ____.</h4>
+                                    <div class="options">
+                                        <div class="option" data-reading="1" data-answer="a">A. sunny</div>
+                                        <div class="option" data-reading="1" data-answer="b">B. windy and cool</div>
+                                        <div class="option" data-reading="1" data-answer="c">C. rainy</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="question">
+                                    <h4>2. How many giant pandas are there in Ocean Park, Hong Kong?</h4>
+                                    <div class="options">
+                                        <div class="option" data-reading="2" data-answer="a">A. Four</div>
+                                        <div class="option" data-reading="2" data-answer="b">B. Two</div>
+                                        <div class="option" data-reading="2" data-answer="c">C. Three</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button class="btn btn-check" id="submitQuiz" aria-label="提交測驗答案"><i class="fas fa-check-circle"></i> 提交測驗</button>
+                            <button class="btn btn-reset" onclick="resetQuiz()" aria-label="重設測驗"><i class="fas fa-redo"></i> 重設測驗</button>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-content" id="writing">
+                        <h3><i class="fas fa-envelope"></i> 閱讀理解</h3>
+                        <p>學習英文日記寫作與動物描述：</p>
+                        
+                        <div class="diary-sample">
+                            <h4><i class="fas fa-book"></i> 海洋公園遊記</h4>
+                            
+                            <div class="paragraph-container">
+                                <div class="paragraph-content">
+                                    <strong>29th December, 2018 (Sat)</strong><br><br>
+                                    I went to Ocean Park with my friends, Joe, Sue, Mike and Anna. The weather was windy and cool. We went there by bus. We were thrilled because we could see many land and sea animals there.
+                                </div>
+                                <div class="paragraph-buttons">
+                                    <button class="paragraph-btn audio-paragraph-btn" data-audio="unit6_para_01" aria-label="播放第一段音頻">
+                                        <i class="fas fa-volume-up"></i>
+                                        <span class="audio-loading"></span>
+                                    </button>
+                                    <button class="paragraph-btn translate-btn" data-translation="t1" aria-label="顯示第一段翻譯">
+                                        <i class="fas fa-language"></i>
+                                    </button>
+                                </div>
+                                <div class="translation" id="t1">
+                                    <strong>2018年12月29日（星期六）</strong><br><br>
+                                    我和我的朋友Joe、Sue、Mike和Anna去了海洋公園。天氣多風且涼爽。我們乘巴士去那裡。我們非常興奮，因為我們可以在那裡看到許多陸地和海洋動物。
+                                </div>
+                            </div>
+                            
+                            <div class="paragraph-container">
+                                <div class="paragraph-content">
+                                    I love giant pandas best. I always want to know more about giant pandas. Anna gave me an information leaflet about giant pandas.
+                                </div>
+                                <div class="paragraph-buttons">
+                                    <button class="paragraph-btn audio-paragraph-btn" data-audio="unit6_para_02" aria-label="播放第二段音頻">
+                                        <i class="fas fa-volume-up"></i>
+                                        <span class="audio-loading"></span>
+                                    </button>
+                                    <button class="paragraph-btn translate-btn" data-translation="t2" aria-label="顯示第二段翻譯">
+                                        <i class="fas fa-language"></i>
+                                    </button>
+                                </div>
+                                <div class="translation" id="t2">
+                                    我最喜歡大熊貓。我一直想了解更多關於大熊貓的知識。Anna給了我一份關於大熊貓的資料單張。
+                                </div>
+                            </div>
+                            
+                            <div class="paragraph-container">
+                                <div class="paragraph-content">
+                                    Giant pandas have black and white fur. The fur around their eyes and on their ears, legs and shoulders is black. They have a round face, a big head, a large body and short legs. A giant panda can grow up to 1.5 meters long and weigh up to 110 kilograms.
+                                </div>
+                                <div class="paragraph-buttons">
+                                    <button class="paragraph-btn audio-paragraph-btn" data-audio="unit6_para_03" aria-label="播放第三段音頻">
+                                        <i class="fas fa-volume-up"></i>
+                                        <span class="audio-loading"></span>
+                                    </button>
+                                    <button class="paragraph-btn translate-btn" data-translation="t3" aria-label="顯示第三段翻譯">
+                                        <i class="fas fa-language"></i>
+                                    </button>
+                                </div>
+                                <div class="translation" id="t3">
+                                    大熊貓有黑白相間的皮毛。他們眼睛周圍、耳朵、腿和肩膀上的皮毛是黑色的。他們有一個圓臉、大頭、大身體和短腿。一隻大熊貓可以長到1.5米長，重達110公斤。
+                                </div>
+                            </div>
+                            
+                            <div class="paragraph-container">
+                                <div class="paragraph-content">
+                                    Most giant pandas live in the forests in Sichuan. They like to eat bamboo. They have large paws so they can climb up bamboo trees and hold on to the tree trunks.
+                                </div>
+                                <div class="paragraph-buttons">
+                                    <button class="paragraph-btn audio-paragraph-btn" data-audio="unit6_para_04" aria-label="播放第四段音頻">
+                                        <i class="fas fa-volume-up"></i>
+                                        <span class="audio-loading"></span>
+                                    </button>
+                                    <button class="paragraph-btn translate-btn" data-translation="t4" aria-label="顯示第四段翻譯">
+                                        <i class="fas fa-language"></i>
+                                    </button>
+                                </div>
+                                <div class="translation" id="t4">
+                                    大多數大熊貓生活在四川的森林裡。他們喜歡吃竹子。他們有大爪子，所以可以爬上竹子並抓住樹幹。
+                                </div>
+                            </div>
+                            
+                            <div class="paragraph-container">
+                                <div class="paragraph-content">
+                                    Giant pandas are big but their babies are tiny. At birth, baby giant pandas weigh about 100 grams. Baby giant pandas are called cubs. Cubs are pink and have no fur.
+                                </div>
+                                <div class="paragraph-buttons">
+                                    <button class="paragraph-btn audio-paragraph-btn" data-audio="unit6_para_05" aria-label="播放第五段音頻">
+                                        <i class="fas fa-volume-up"></i>
+                                        <span class="audio-loading"></span>
+                                    </button>
+                                    <button class="paragraph-btn translate-btn" data-translation="t5" aria-label="顯示第五段翻譯">
+                                        <i class="fas fa-language"></i>
+                                    </button>
+                                </div>
+                                <div class="translation" id="t5">
+                                    大熊貓很大，但他們的寶寶卻很小。出生時，大熊貓寶寶重約100克。大熊貓寶寶被稱為幼崽。幼崽是粉紅色的，沒有皮毛。
+                                </div>
+                            </div>
+                            
+                            <div class="paragraph-container">
+                                <div class="paragraph-content">
+                                    There are not many giant pandas now, so people keep giant pandas in zoos and reserves to take good care of them. In Hong Kong, there are four giant pandas in Ocean Park.
+                                </div>
+                                <div class="paragraph-buttons">
+                                    <button class="paragraph-btn audio-paragraph-btn" data-audio="unit6_para_06" aria-label="播放第六段音頻">
+                                        <i class="fas fa-volume-up"></i>
+                                        <span class="audio-loading"></span>
+                                    </button>
+                                    <button class="paragraph-btn translate-btn" data-translation="t6" aria-label="顯示第六段翻譯">
+                                        <i class="fas fa-language"></i>
+                                    </button>
+                                </div>
+                                <div class="translation" id="t6">
+                                    現在大熊貓數量不多，所以人們把大熊貓養在動物園和保護區裡，好好照顧他們。在香港，海洋公園有四隻大熊貓。
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 改良後的常用形容詞部分 -->
+                        <div class="adjective-section">
+                            <h4><i class="fas fa-font"></i> 常用形容詞</h4>
+                            <div class="adjective-grid">
+                                <!-- 形容詞 1 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">tiny (極小的)</div>
+                                    <button class="example-btn" aria-label="顯示tiny的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">The baby panda is tiny.</p>
+                                        <p class="example-chinese">熊貓寶寶非常小。</p>
+                                        <button class="audio-example-btn" data-audio="adj_tiny" aria-label="播放tiny例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 2 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">little (小的)</div>
+                                    <button class="example-btn" aria-label="顯示little的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">A little monkey</p>
+                                        <p class="example-chinese">一隻小猴子</p>
+                                        <button class="audio-example-btn" data-audio="adj_little" aria-label="播放little例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 3 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">big (大的)</div>
+                                    <button class="example-btn" aria-label="顯示big的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">Elephants are big animals.</p>
+                                        <p class="example-chinese">大象是大型動物。</p>
+                                        <button class="audio-example-btn" data-audio="adj_big" aria-label="播放big例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 4 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">large (大的)</div>
+                                    <button class="example-btn" aria-label="顯示large的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">A large elephant</p>
+                                        <p class="example-chinese">一隻大象</p>
+                                        <button class="audio-example-btn" data-audio="adj_large" aria-label="播放large例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 5 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">giant (巨大的)</div>
+                                    <button class="example-btn" aria-label="顯示giant的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">Giant panda</p>
+                                        <p class="example-chinese">大熊貓</p>
+                                        <button class="audio-example-btn" data-audio="adj_giant" aria-label="播放giant例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 6 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">round (圓的)</div>
+                                    <button class="example-btn" aria-label="顯示round的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">My little sister has a cute round face.</p>
+                                        <p class="example-chinese">我的小妹妹有一張可愛的圓臉</p>
+                                        <button class="audio-example-btn" data-audio="adj_round" aria-label="播放round例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 7 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">heavy (重的)</div>
+                                    <button class="example-btn" aria-label="顯示heavy的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">The elephant is heavy.</p>
+                                        <p class="example-chinese">大象很重。</p>
+                                        <button class="audio-example-btn" data-audio="adj_heavy" aria-label="播放heavy例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 8 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">light (輕的)</div>
+                                    <button class="example-btn" aria-label="顯示light的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">A light feather</p>
+                                        <p class="example-chinese">一根輕的羽毛</p>
+                                        <button class="audio-example-btn" data-audio="adj_light" aria-label="播放light例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 9 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">tall (高的)</div>
+                                    <button class="example-btn" aria-label="顯示tall的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">Giraffes are tall.</p>
+                                        <p class="example-chinese">長頸鹿很高。</p>
+                                        <button class="audio-example-btn" data-audio="adj_tall" aria-label="播放tall例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 10 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">long (長的)</div>
+                                    <button class="example-btn" aria-label="顯示long的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">The giraffe has a long neck.</p>
+                                        <p class="example-chinese">長頸鹿有一條長脖子</p>
+                                        <button class="audio-example-btn" data-audio="adj_long" aria-label="播放long例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 11 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">short (短的)</div>
+                                    <button class="example-btn" aria-label="顯示short的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">My puppy has short legs but runs very fast.</p>
+                                        <p class="example-chinese">我的小狗有短腿，但跑起來非常快</p>
+                                        <button class="audio-example-btn" data-audio="adj_short" aria-label="播放short例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- 形容詞 12 -->
+                                <div class="adjective-card">
+                                    <div class="adjective-item">sharp (鋒利的)</div>
+                                    <button class="example-btn" aria-label="顯示sharp的例句">
+                                        <i class="fas fa-comment-dots"></i> 例句
+                                    </button>
+                                    <div class="example-content">
+                                        <p class="example-english">The tiger has sharp teeth to catch food.</p>
+                                        <p class="example-chinese">老虎有鋒利的牙齒來捕捉食物</p>
+                                        <button class="audio-example-btn" data-audio="adj_sharp" aria-label="播放sharp例句音頻">
+                                            <i class="fas fa-volume-up"></i> 
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <h2><i class="fas fa-list"></i> 學習重點</h2>
+                <div class="unit">
+                    <h3><i class="fas fa-paw"></i> 單元6：動物園的一天</h3>
+                    <div class="unit-content">
+                        <p><strong>主題：</strong> 動物與自然</p>
+                        <p><strong>學習目標：</strong></p>
+                        <ul>
+                            <li>學習陸地與海洋動物詞彙</li>
+                            <li>詢問動物的飲食習慣、棲息地</li>
+                            <li>描述動物的高度、長度和重量</li>
+                            <li>使用現在簡單式描述事實</li>
+                            <li>使用形容詞描述動物特徵</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="unit">
+                    <h3><i class="fas fa-language"></i> 語言重點</h3>
+                    <div class="unit-content">
+                        <p><strong>1. 疑問詞詢問動物資訊：</strong></p>
+                        <ul>
+                            <li>What do giant pandas eat?</li>
+                            <li>Where do sharks live?</li>
+                            <li>How tall are flamingoes?</li>
+                            <li>How long are sharks?</li>
+                            <li>How heavy are seals?</li>
+                        </ul>
+                        
+                        <p><strong>2. 現在簡單式描述事實：</strong></p>
+                        <ul>
+                            <li>Giant pandas have black and white fur.</li>
+                            <li>Sharks have sharp teeth.</li>
+                            <li>Elephants are big animals.</li>
+                        </ul>
+                        
+                        <p><strong>3. 常用形容詞：</strong></p>
+                        <ul>
+                            <li>tiny, little, big, large</li>
+                            <li>giant, round, heavy, light</li>
+                            <li>tall, long, short, sharp</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- 學習進度 -->
+                <div class="progress-summary">
+                    <h3><i class="fas fa-chart-line"></i> 學習進度</h3>
+                    <div class="progress-circle" id="progressCircle">
+                        <div class="progress-circle-inner">
+                            <span id="progressPercent">0%</span>
+                        </div>
+                    </div>
+                    <div class="practice-stats">
+                        <div class="stat-item">
+                            <div class="stat-value" id="completedCount">0</div>
+                            <div class="stat-label">已完成</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="totalCount">10</div>
+                            <div class="stat-label">總練習</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="correctRate">0%</div>
+                            <div class="stat-label">正確率</div>
+                        </div>
+                    </div>
+                    <p id="nextRecommendation" style="margin-top: 15px; color: #666; font-size: 0.9rem;">
+                        開始練習以追蹤進度
+                    </p>
+                </div>
+                
+                <div class="score-container" id="scoreContainer">
+                    <h3><i class="fas fa-award"></i> 測驗結果</h3>
+                    <div class="score" id="score">0/20</div>
+                    <p id="scoreMessage">測驗完成！請查看你的分數。</p>
+                    <button class="btn btn-reset" id="resetTest" aria-label="重新開始測驗"><i class="fas fa-redo"></i> 重新測驗</button>
+                </div>
+                
+                <!-- 薄弱環節提示 -->
+                <div class="unit" id="weaknessTips" style="display: none;">
+                    <h3><i class="fas fa-lightbulb"></i> 學習建議</h3>
+                    <div class="unit-content">
+                        <p><strong>建議加強練習：</strong></p>
+                        <ul id="weaknessList">
+                            <!-- 將由JavaScript動態生成 -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>小學三年級英文 - 單元6：動物園的一天 | 設計參考自教學內容 | &copy; 2023 教育資源</p>
+            <p>使用提示：點擊詞彙卡學習動物單字，完成練習題強化記憶，聆聽音頻學習正確發音</p>
+            <p>進度會自動保存，下次訪問可繼續學習</p>
+        </footer>
+    </div>
+
+    <!-- 完成總結彈窗 -->
+    <div class="summary-modal" id="summaryModal">
+        <div class="summary-content">
+            <div class="summary-header">
+                <h2><i class="fas fa-trophy"></i> 恭喜完成單元學習！</h2>
+                <div class="summary-stars" id="summaryStars">
+                    <!-- 星星將由JavaScript生成 -->
+                </div>
+                <p>你已完成所有練習題</p>
+            </div>
+            
+            <div class="progress-summary" style="margin: 20px 0;">
+                <h3>學習成果總結</h3>
+                <div class="progress-circle" style="width: 100px; height: 100px;">
+                    <div class="progress-circle-inner">
+                        <span id="finalProgress">0%</span>
+                    </div>
+                </div>
+                <p>已完成 <strong id="finalCompleted">0</strong>/<strong>10</strong> 個練習</p>
+            </div>
+            
+            <div id="weaknessSection" style="display: none;">
+                <h3><i class="fas fa-exclamation-triangle"></i> 建議加強練習</h3>
+                <div class="weakness-list" id="modalWeaknessList">
+                    <!-- 薄弱環節將由JavaScript生成 -->
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn" onclick="closeSummary()" style="background-color: #3498db;">
+                    <i class="fas fa-check"></i> 確認
+                </button>
+                <button class="btn btn-reset" onclick="resetPracticeWithSilentNotification()" style="margin-left: 15px;">
+                    <i class="fas fa-redo"></i> 重新練習
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 靜默通知 -->
+    <div class="silent-notification" id="silentNotification">
+        <div id="notificationContent"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
